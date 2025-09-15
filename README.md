@@ -1,29 +1,33 @@
-# 🎬 Movie Data Analysis
+# 🎬 Disney Movie Data Analysis  
 
-Ce projet contient un notebook Jupyter (`notebook.ipynb`) permettant d’analyser des informations sur des films (budget, box office, etc.), avec des fonctions de conversion et de nettoyage des données.
+📌 **Description du projet**  
+Ce projet consiste en une analyse des films Disney à partir de données collectées et nettoyées. L’objectif est de traiter, convertir et analyser des informations clés comme le budget et le box office, afin de mettre en évidence des tendances économiques et cinématographiques.  
 
-## 🚀 Installation
+L’ensemble du travail est effectué dans un notebook Jupyter, accompagné de jeux de données bruts et nettoyés.  
 
-```bash
-git clone https://github.com/ton-utilisateur/nom-du-repo.git
-cd nom-du-repo
-python -m venv .venv
-source .venv/bin/activate   # Linux/MacOS
-.venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-Contenu du projet
+⚙️ **Fonctionnalités principales**  
+- 💰 Conversion des montants financiers (budget, box office) en valeurs numériques exploitables  
+- 🧹 Nettoyage des données (gestion des valeurs manquantes, uniformisation des formats)  
+- 📊 Analyse exploratoire des films (comparaison budget/box office, tendances)  
+- 📂 Export des données propres pour réutilisation ultérieure  
 
-notebook.ipynb : Notebook principal contenant le code d’analyse
+🛠️ **Technologies utilisées**  
+- Python 3.11  
+- Jupyter Notebook  
+- pandas / numpy (traitement des données)  
+- matplotlib / seaborn (visualisations)  
 
-README.md : Documentation du projet
+```📂 **Structure du projet**  
+│── final_dataset/ # Dossier contenant les données finales
+│
+│── Disney_data.json # Jeu de données brut
+│── Disney_data_clean.json # Jeu de données nettoyé
+│── notebook.ipynb # Notebook principal d’analyse
+│── README.md # Documentation du projet
+│── requirements.txt # Dépendances Python
+```
 
-🛠️ Fonctionnalités
 
-Conversion des montants financiers (budget, box office) en float via money_conversion
 
-Nettoyage des données avec gestion des valeurs manquantes
-
-Analyse exploratoire des films (budget vs box office)
-
-▶️ Utilisation
-jupyter notebook
+🎯 **Objectif pédagogique**  
+Ce projet est conçu dans une démarche éducative et démonstrative. Il illustre les étapes d’un projet de data cleaning et d’analyse exploratoire, en appliquant des méthodes simples et reproductibles.
